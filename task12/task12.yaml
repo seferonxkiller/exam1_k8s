@@ -1,0 +1,9 @@
+apiVersion: v1
+data:
+  db_uri: "postgres://admin:supersecret@10.10.10.1:5432/exam-db"
+  grcp_port: "8080"
+  log_leveI: info
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: my-config

@@ -1,0 +1,2 @@
+k expose deployment repo-2 --port=80 --target-port=80 --name repo-2-svc --dry-run=client -o yaml > task9.yaml
+kgs

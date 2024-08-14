@@ -1,0 +1,4 @@
+NAME                 ADDRESSTYPE   PORTS   ENDPOINTS        AGE
+flask-app-s9jz9      IPv4          5000    10.233.71.51     80m
+frontend-app-xrhhb   IPv4          80      10.233.102.166   61m
+repo-2-svc-dvzzx     IPv4          80      10.233.75.68     18m

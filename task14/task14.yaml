@@ -1,0 +1,20 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  creationTimestamp: null
+  name: repo-2-ingress
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: kuber.dilshodev.uz
+    http:
+      paths:
+      - backend:
+          service:
+            name: repo-2-svc
+            port:
+              number: 80
+        path: /
+        pathType: Prefix
+status:
+  loadBalancer: {}

@@ -1,0 +1,1 @@
+k exec -it ngin1 -- curl flask-app/check-ingress

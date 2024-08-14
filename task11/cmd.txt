@@ -1,0 +1,6 @@
+k create secret generic database --from-literal=key=DB_URI --from-literal=value=postgres://admin:supersecret@10.10.10.1:5432/exam-db --dry-run=client -o yaml
+ > task11.yaml
+ kgsec 
+ Output:
+ NAME       TYPE     DATA   AGE
+ database   Opaque   2      29s

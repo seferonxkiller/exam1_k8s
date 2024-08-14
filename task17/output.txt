@@ -1,0 +1,2 @@
+NAME               ADDRESSTYPE   PORTS   ENDPOINTS      AGE
+repo-2-svc-dvzzx   IPv4          80      10.233.75.68   22m

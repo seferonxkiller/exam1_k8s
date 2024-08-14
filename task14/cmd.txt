@@ -1,0 +1,4 @@
+ k create ingress repo-2-ingress --rule "kuber.dilshodev.uz/*=repo-2-svc:80" --class nginx --dry-run=client -o yaml > ta
+sk14.yaml
+kgi
+curl kuber.dilshodev.uz/  

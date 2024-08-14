@@ -1,0 +1,2 @@
+kubectl create configmap my-config --from-literal=db_uri= --from-literal=log_level=info --from-literal=grcp_port=8080 --dry-run=client -o yaml > task12.yaml
+i write all deployment yaml

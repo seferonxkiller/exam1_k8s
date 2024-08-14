@@ -1,0 +1,1 @@
+kubectl scale deployment repo-2 --replicas=3 --dry-run=client -o yaml > task15.yaml

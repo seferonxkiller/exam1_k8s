@@ -1,0 +1,13 @@
+NAME             CLASS   HOSTS                ADDRESS         PORTS   AGE
+repo-2-ingress   nginx   kuber.dilshodev.uz   10.233.52.106   80      57s
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /</pre>
+</body>
+</html>

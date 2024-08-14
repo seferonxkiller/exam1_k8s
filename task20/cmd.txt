@@ -1,0 +1,1 @@
+curl kuber.dilshodev.uz/load-capability

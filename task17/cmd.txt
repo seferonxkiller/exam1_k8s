@@ -1,0 +1,1 @@
+kubectl get endpointslices repo-2-svc-dvzzx

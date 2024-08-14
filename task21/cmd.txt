@@ -1,0 +1,2 @@
+k create -f task21/cronjob.yaml
+kgcj

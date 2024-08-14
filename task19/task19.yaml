@@ -1,0 +1,56 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: repo-2
+  name: repo-2
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: repo-2
+  template:
+    metadata:
+      labels:
+        app: repo-2
+    spec:
+      containers:
+      - image: dilsh0dev/js:v1
+        name: repo-2
+        resources:
+          limits:
+            cpu: "200m"
+            memory: "128Mi"
+          requests:
+            cpu: "100m"
+            memory: "64Mi"
+        env:
+          - name: ENVIRONMENT
+            valueFrom:
+              configMapKeyRef:
+                name: info
+                key: env
+          - name: LOG_LEVEL
+            valueFrom:
+              configMapKeyRef:
+                name: info
+                key: log_leveI
+          - name: GRPC_PORT
+            valueFrom:
+              configMapKeyRef:
+                name: info
+                key: grpc_port
+          - name: POD_ID
+            valueFrom:
+              fieldRef:
+                fieldPath: status.podIP
+          - name: CPU
+            valueFrom:
+              resourceFieldRef:
+                containerName: repo-2
+                resource: requests.cpu
+          - name: MEMORY
+            valueFrom:
+              resourceFieldRef:
+                containerName: repo-2
+                resource: requests.memory

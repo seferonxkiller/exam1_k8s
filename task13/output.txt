@@ -1,0 +1,4 @@
+NAME           TYPE        CLUSTER-IP     EXTERNAL-IP   PORT(S)        AGE
+flask-app      NodePort    10.233.45.18   <none>        80:31310/TCP   62m
+frontend-app   NodePort    10.233.49.69   <none>        80:31391/TCP   43m
+repo-2-svc     ClusterIP   10.233.61.0    <none>        80/TCP         7s

@@ -1,0 +1,2 @@
+k run ngin1 --image nginx --labels project=practice --labels author=d-xolmatov --dry-run=client -o yaml > nginx1.yaml
+k run ngin2 --image nginx --labels project=practice --labels author=d-xolmatov --dry-run=client -o yaml > nginx2.yaml

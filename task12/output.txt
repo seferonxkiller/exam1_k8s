@@ -1,0 +1,6 @@
+NAME                            READY   STATUS    RESTARTS   AGE
+flask-app-6b9b47b79-6t6kw       1/1     Running   0          63m
+frontend-app-6fb9bb9dc8-5bpjw   1/1     Running   0          43m
+ngin1                           1/1     Running   0          70m
+ngin2                           1/1     Running   0          70m
+repo-2-7fd45f4949-v2j4j         1/1     Running   0          7s

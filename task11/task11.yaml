@@ -1,0 +1,8 @@
+apiVersion: v1
+data:
+  key: REJfVVJJ
+  value: cG9zdGdyZXM6Ly9hZG1pbjpzdXBlcnNlY3JldEAxMC4xMC4xMC4xOjU0MzIvZXhhbS1kYg==
+kind: Secret
+metadata:
+  creationTimestamp: null
+  name: database
